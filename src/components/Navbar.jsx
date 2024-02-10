@@ -17,9 +17,9 @@ const Navbar = () => {
           <NavLink to="/" className="text-black no-underline"><img src={logo} alt="logo" className='w-16 h-10' /></NavLink>
         </div>
         <div className='flex gap-16 items-center justify-center'>
-          <NavLink to="/mint" className="text-black text-lg no-underline hover:font-semibold">Mint</NavLink>
-          <NavLink to="/buy" className="text-black text-lg no-underline hover:font-semibold">Buy</NavLink>
-          <NavLink to="/sell" className="text-black text-lg no-underline hover:font-semibold">Sell</NavLink>
+          <NavLink to="/mint" className="text-black text-xl no-underline hover:font-semibold">Mint</NavLink>
+          <NavLink to="/buy" className="text-black text-xl no-underline hover:font-semibold">Buy</NavLink>
+          <NavLink to="/sell" className="text-black text-xl no-underline hover:font-semibold">Sell</NavLink>
         </div>
         <div>
           <button

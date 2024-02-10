@@ -6,7 +6,6 @@ import Mint from './pages/Mint'
 import Buy from './pages/Buy'
 import Sell from './pages/Sell'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
         <Route path="/buy" element={<Buy />} />
         <Route path="/sell" element={<Sell />} />
       </Routes>
-      <Footer />
     </>
   )
 }
