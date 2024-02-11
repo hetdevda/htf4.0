@@ -14,9 +14,9 @@ function Navbar() {
         <NavLink to="/" className="text-black no-underline"><img src={logo} alt="logo" className='w-16 h-10' /></NavLink>
       </div>
       <div className='flex gap-16 items-center justify-center'>
-        <NavLink exact to={walletConnected?"/mint":"/"} className="text-black text-xl no-underline hover:font-semibold active:font-semibold">Mint</NavLink>
-        <NavLink exact to={walletConnected?"/buy":"/"} className="text-black text-xl no-underline hover:font-semibold active:font-semibold">Buy</NavLink>
         <NavLink exact to={walletConnected?"/sell":"/"} className="text-black text-xl no-underline hover:font-semibold">Sell</NavLink>
+        <NavLink exact to={walletConnected?"/buy":"/"} className="text-black text-xl no-underline hover:font-semibold active:font-semibold">Buy</NavLink>
+        <NavLink exact to={walletConnected?"/mint":"/"} className="text-black text-xl no-underline hover:font-semibold active:font-semibold">Mint</NavLink>
       </div>
       <div>
         <button

@@ -20,19 +20,7 @@ export const RealEstateProvider = ({ children }) => {
         return fcl.authenticate();
     }
 
-    useEffect(() => {
-        const fetchCurrentUserAccount = async () => {
-            try {
-                const account = (await fcl.currentUser().authorization()).account;
-                setWalletAddress(account);
-                setWalletConnected(true);
-            } catch (error) {
-                console.error("Error fetching current user account:", error);
-            }
-        };
 
-        fetchCurrentUserAccount();
-    }, []);
 
     const handleConnectWallet = async (e) => {
         e.preventDefault();
