@@ -1,0 +1,30 @@
+[
+    {
+        "property_name": "Property 1",
+        "property_location": "Denver",
+        "property_description": "Nestled against the backdrop of the Rocky Mountains, this charming Denver home boasts panoramic views of the city skyline.",
+        "property_price": "2000 FLOW",
+        "property_image": "images/ill3.avif"
+    },
+    {
+        "property_name": "Property 2",
+        "property_location": "London",
+        "property_description": "Nestled against the backdrop of the Rocky Mountains, this charming Denver home boasts panoramic views of the city skyline.",
+        "property_price": "2000 FLOW",
+        "property_image": "images/ill3.avif"
+    },
+    {
+        "property_name": "Property 3",
+        "property_location": "India",
+        "property_description": "Tucked away in the vibrant streets of Mumbai, this elegant Indian home exudes timeless grandeur with its intricate architectural details.",
+        "property_price": "1900 FLOW",
+        "property_image": "images/ill3.avif"
+    },
+    {
+        "property_name": "Property 4",
+        "property_location": "Tokyo",
+        "property_description": "In the heart of bustling Tokyo, this sleek and minimalist home epitomizes urban sophistication.",
+        "property_price": "2100 FLOW",
+        "property_image": "images/ill3.avif"
+    }
+]

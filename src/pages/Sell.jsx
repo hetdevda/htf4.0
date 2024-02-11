@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 import ill3 from "../assets/ill3.avif"
 import Footer from "../components/Footer"
+import realestate from "../data/realestate.json"
 
 const Sell = () => {
 
@@ -11,12 +12,24 @@ const Sell = () => {
   const [data, setData] = useState({ propertyName: "", location: "", description: "", price: "" })
 
   const handleSubmit = e => {
+
     e.preventDefault()
+
     const { propertyName, location, description, price } = data
+
     if (propertyName !== "" && location !== "" && description !== "" && description.length < 200 && price !== "" && price.length <= 4) {
-      setData({ propertyName: "", location: "", description: "", price: "" })
+
+      realestate.push({
+        property_name: propertyName,
+        property_location: location,
+        property_description: description,
+        property_price: price+" FLOW",
+        property_image: "images/ill3.avif"
+      })
       alert("Property has been listed for sale")
+      setData({ propertyName: "", location: "", description: "", price: "" })
       navigate("/buy")
+
     }
     else {
       alert("Please fill all the fields with valid data")
@@ -101,7 +114,7 @@ const Sell = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
