@@ -1,3 +1,11 @@
+To Run the Code in your Local Device you need to first setup the Flow Blockchain Setup, which can be installed from this link:- https://developers.flow.com/build/guides/flow-cli , There are different links for MacOS, Linux, Windows, Install it according to your Convinience and device.
+Then, after the setup is done, your are all set to go.
+Then Run the following Commands:-
+1.) flow emulator  (To start the Development Server of flow, open your powershell terminal and run this command.), after this run the next command.
+2.) flow accounts add-contract .\cadence\contracts\realestate.cdc    (this command will deploy and run the smart contract in flow blockchain,(run this in another terminal and let the emulator run in another terminal).
+3.) npm run start (in another terminal of vs code run this so you can see the Dapp on the localhost:3000).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
