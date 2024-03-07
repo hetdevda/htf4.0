@@ -9,6 +9,14 @@ Then Run the following Commands:-
 
 3.) npm run start (in another terminal of vs code run this so you can see the Dapp on the localhost:3000).
 
+So, in short 3 commands:-
+
+1.) flow emulator
+
+2.) flow accounts add-contract .\cadence\contracts\realestate.cdc
+
+3.) npm run start
+
 
 # Getting Started with Create React App
 
